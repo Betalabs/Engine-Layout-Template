@@ -1,6 +1,6 @@
 {
-    "name": "Seiko",
-    "alias": "seiko",
+    "name": "My Layout",
+    "alias": "my-layout",
     "paths": {
         "views": "src/views",
         "images": "src/assets/images",
