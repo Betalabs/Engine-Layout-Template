@@ -1,0 +1,16 @@
+{
+	"name": "betalabs/engine-seiko",
+	"description": "Seiko Layout implementation for Betalabs Engine",
+	"type": "library",
+	"require": {
+        "php": "^7.2"
+	},
+	"require-dev": {
+		"betalabs/engine-layout-base": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"EngineSeiko\\": "src"
+		}
+	}
+}

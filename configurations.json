@@ -1,0 +1,50 @@
+{
+    "name": "Seiko",
+    "alias": "seiko",
+    "paths": {
+        "views": "src/views",
+        "images": "src/assets/images",
+        "scripts": "src/assets/scripts",
+        "styles": "src/assets/styles",
+        "fonts": "src/assets/fonts",
+        "videos": "src/assets/videos"
+    },
+    "main_file": "base.blade.php",
+    "colors": [
+        {
+            "identification": "pink",
+            "label": "Pink",
+            "default": true
+        }, {
+            "identification": "blue",
+            "label": "Blue",
+            "default": false
+        }
+    ],
+    "components": [
+        {
+            "name": "Menu 1",
+            "description": "Implementação do menu com o logo a esquerda, links centralizados e a direita a barra de busca com input implícito e links para minha conta e carrinho",
+            "path": "menu1",
+            "main_file": "main.blade.php",
+            "parameters": [
+                {
+                    "name": "logo_src",
+                    "label": "Link do logo",
+                    "description": "Caminho da imagem a ser colocada como logo",
+                    "possible_values": ["url", "assets,id"]
+                }, {
+                    "name": "categories_data_provider",
+                    "label": "Data provider de categorias",
+                    "description": "Data provider que fornecerá uma coleção de categorias a serem disponibilizadas no menu",
+                    "possible_values": ["data_providers,id"]
+                }, {
+                    "name": "raw_link",
+                    "label": "Link simples",
+                    "description": "Link simples para uma URL",
+                    "possible_values": ["url"]
+                }
+            ]
+        }
+    ]
+}

@@ -1,2 +1,2 @@
 # Engine-Layout-Template
-Template repository to be forked to guide layouts developments
+Template repository to guide layouts developments
