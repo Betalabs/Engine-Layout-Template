@@ -1,6 +1,6 @@
 {
-	"name": "vendor/my-layout-implementation",
-	"description": "Layout implementation for Betalabs Engine",
+	"name": "vendor/my-custom-theme",
+	"description": "Theme implementation for Betalabs Engine",
 	"type": "library",
 	"require": {
         "php": "^7.2"
@@ -10,7 +10,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"MyLayoutImplementation\\": "src"
+			"MyCustomTheme\\": "src"
 		}
 	}
 }

@@ -1,1 +1,1 @@
-console.log('This will be an amazing layout!');
+console.log('This is my custom theme!');

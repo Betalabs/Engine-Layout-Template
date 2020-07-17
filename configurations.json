@@ -1,6 +1,6 @@
 {
-    "name": "My Layout",
-    "alias": "my-layout",
+    "name": "My Theme",
+    "alias": "my-theme",
     "paths": {
         "views": "src/views",
         "images": "src/assets/images",
@@ -23,25 +23,25 @@
     ],
     "components": [
         {
-            "name": "Menu 1",
-            "description": "Implementação do menu com o logo a esquerda, links centralizados e a direita a barra de busca com input implícito e links para minha conta e carrinho",
-            "path": "menu1",
-            "main_file": "main.blade.php",
+            "name": "My custom component",
+            "description": "This is a custom component for my amazing theme",
+            "path": "components",
+            "main_file": "my-custom-component.blade.php",
             "parameters": [
                 {
                     "name": "logo_src",
-                    "label": "Link do logo",
-                    "description": "Caminho da imagem a ser colocada como logo",
-                    "possible_values": ["url", "assets,id"]
+                    "label": "Logo image source",
+                    "description": "Logo image source",
+                    "possible_values": ["url"]
                 }, {
-                    "name": "categories_data_provider",
-                    "label": "Data provider de categorias",
-                    "description": "Data provider que fornecerá uma coleção de categorias a serem disponibilizadas no menu",
+                    "name": "categories",
+                    "label": "Categories data provider",
+                    "description": "This data provider should provide a collection composed by all ecommerce categories",
                     "possible_values": ["data_providers,id"]
                 }, {
-                    "name": "raw_link",
-                    "label": "Link simples",
-                    "description": "Link simples para uma URL",
+                    "name": "blog_url",
+                    "label": "Blog link URL",
+                    "description": "URL which references an external blog",
                     "possible_values": ["url"]
                 }
             ]
